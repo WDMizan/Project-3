@@ -1,0 +1,506 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*header part css start*/
+.header{
+    background-color: cadetblue;
+    height: 50px;
+}
+.header_icon h4{
+    padding-top: 8px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+     
+}
+.header_icon h4 a{
+   text-decoration: none;
+    background-color: blueviolet;
+    padding: 5px 15px; 
+      border: 1px solid darkmagenta;
+    transition: all linear .3s;
+    border-radius: 5px;
+    color: #1ee616;
+}
+.header_icon h4 a:hover {
+    background-color: darkmagenta;
+    border: 1px solid darkmagenta;
+    transition: all linear .3s;
+    color: #fff;
+    border-radius: 5px;
+}
+.header_con{
+    
+}
+.header_con ul{
+    display: inline-flex;
+}
+.header_con ul li{
+    list-style: none;
+     margin-top: 13px;
+    
+}
+.header_con ul li a{
+     text-decoration: none;
+     padding: 5px 11px;
+     border: 1px solid darkmagenta;
+     margin-left: 12px;
+     color: #1ee616;
+     border-radius: 5px;
+     font-size: 15px;
+    transition: all linear .3s;
+}
+.header_con ul li a:hover {
+    background-color: darkmagenta;
+    border: 1px solid darkmagenta;
+    transition: all linear .3s;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.header_con button{
+    margin-top: 6px;
+    margin-left: 45px;
+    padding: 5px 5px;
+    border: 1px solid darkmagenta;
+    background-color: darkorange;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+.header_con button:hover {
+    background-color: darkmagenta;
+    border: 1px solid darkmagenta;
+    transition: all linear .3s;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/*header part css end*/
+/*banner part html start*/
+.banner{
+    background: url(../image/banner.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.banner_overlay{
+    background-color: rgba(0, 0, 0, 0.77);
+    padding: 186px 0px;
+   
+}
+.banner_con h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    font-weight: bold;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.banner_con h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: #fff;
+    padding-bottom: 40px;
+}
+.banner_con a{
+        padding: 10px 40px;
+    border: 2px solid blue;
+    text-decoration: none;
+    margin-left: 19px;
+    text-align: center;
+    color: red;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+.banner_con a:hover {
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    color: #fff;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+/*banner part html end*/
+/*content part html start*/
+.content{
+    background-color: rgba(128, 128, 128, 0.4);
+    padding-top: 20px;
+}
+.common_header h2{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: darkmagenta;
+}
+.content_icon i{
+    font-size: 35px;
+}
+.content_icon{
+       background-color: rgba(6, 73, 75, 0.74);
+    padding: 20px 30px;
+    height: 84px;
+    width: 100px;
+    margin-left: 123px;
+    margin-top: 65px;
+    color: blue;
+    border-radius: 5px;
+    border: 2px solid darkmagenta;
+}
+.content_con h5{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.content_con p{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight:lighter;
+    padding-bottom: 40px;
+}
+/*content part html end*/
+/*about part css start*/
+.about_icon{
+    position: relative;
+    display: inline-flex;
+    padding-top: 50px;
+}
+.about_icon i{
+    font-size: 25px;
+    color: darkblue;
+    
+    
+}
+.about_icon h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.about_con p{
+    text-align: start;
+    padding-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: black;
+    font-weight: lighter;
+    padding-bottom: 40px;
+}
+/*about part css end*/
+/*gallery part css start*/
+.gallery{
+    background-color: rgba(8, 122, 126, 0.87);
+    height: 1000px;
+    
+}
+.common_header h3{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: darkmagenta;
+    padding-bottom: 60px;
+}
+.card{
+    margin-bottom: 30px;
+    border: 1px solid navy;
+}
+.gallery_con{
+    background-color: rgb(8, 95, 150);
+    padding: 15px 10px;
+    border: 1px solid navy;
+    transition: all linear .3s;
+}
+.gallery_con:hover {
+    background-color: darkmagenta;
+     border: 1px solid darkmagenta;
+   
+    transition: all linear .3s;
+    
+}
+.gallery_con h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: orange;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.gallery_con p{
+    
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: orange;
+    font-weight: lighter;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.gallery_con a{
+    text-decoration: none;
+}
+.common_head a{
+    text-decoration: none;
+    border: 1px solid navy;
+    margin-left: 520px;
+    margin-bottom: 40px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: #fff;
+    transition: all linear .3s;
+}  
+.common_head a:hover {
+     background-color: darkmagenta;
+     border: 1px solid darkmagenta;
+     transition: all linear .3s;
+}
+
+/*gallery part css end*/
+/*freelance part css start*/
+.freelance{
+    background-color: darkgrey;
+    padding-top: 30px;
+}
+.freelance_overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.free_icon img{
+    height: 250px;
+    width: 100%;
+}
+.card{
+    border: 1px solid navy;
+    transition: all linear .3s;
+   
+}
+.card:hover {
+    background-color: lightgrey;
+    border: 1px solid #fff;
+    transition: all linear .3s;
+}
+.free_con h6{
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 15px;
+}
+.free_con h5{
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.free_con p{
+    text-align: end;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    color: black;
+    font-size: 15px;
+}
+.free_con a{
+    text-align: end;
+    text-decoration: none;
+    padding: 8px 10px;
+    border: 1px solid blue;
+    background-color: royalblue;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 100px;
+    border-radius: 5px;
+    transition: all linear .3s;
+}
+.free_con a:hover {
+    background-color: darkmagenta;
+    border-radius: 5px;
+    transition: all linear .3s;
+    margin-bottom: 20px;
+}
+/*freelance part css end*/
+/*job part css start*/
+.common_header h4{
+    text-align: center;
+    font-size: 35px;
+    padding-top: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: darkmagenta;
+}
+.job_icon{
+    padding-top: 40px;
+    
+}
+.job_icon ul{
+    padding-top: 10px;
+}
+.job_icon ul li{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.job_icon ul li a{
+    text-decoration: none;
+    padding-left: 20px;
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-right: 10px;
+    transition: all linear .3s;
+    font-size: 17px;
+    
+}
+.job_icon ul li i{
+    color: darkmagenta;
+    font-size: 17px;
+}
+.job_icon ul li a:hover {
+    border: 1px solid navy;
+    background-color: darkcyan;
+    color: darkmagenta;
+    border-radius: 5px;
+    transition: all linear .3s;
+    margin-left: 20px;
+    padding: 5px 30px;
+    font-weight: bold;
+}
+
+/*job part css end*/
+/*footer part css start*/
+.footer{
+    background-color: #161E2C;
+}
+.footer_icon h3{
+    color: #fff;
+    padding-top: 40px;
+    font-weight: bold;
+    color: darkgreen;
+}
+.footer_icon{}
+.footer_icon ul{
+    padding-top: 30px;
+    
+}
+.footer_icon ul li{
+    padding-bottom: 20px;
+}
+.footer_icon ul li i{
+    color: green;
+}
+.footer_icon ul li a{
+    text-decoration: none;
+    padding-left: 25px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: all linear .3s;
+    margin-left: 20px;
+}
+.footer_icon ul li a:hover {
+    border: 1px solid navy;
+    background-color: darkcyan;
+    color: darkmagenta;
+    border-radius: 5px;
+    transition: all linear .3s;
+    margin-left: 20px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.footer_con h4{
+    color: #fff;
+    padding-top: 45px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.footer_con li{
+    padding-top: 5px;
+    list-style: none;
+    
+    
+}
+.footer_con li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all linear .3s;
+    font-size: 14px;
+}
+.footer_con li a:hover {
+    border: 1px solid navy;
+    background-color: darkcyan;
+    color: darkmagenta;
+    border-radius: 5px;
+    transition: all linear .3s;
+    
+    padding: 5px 10px;
+    font-weight: bold;
+}
+.footer_con i{
+    color: darkorange;
+    margin-left: 10px;
+    padding-top: 5px;
+    
+}
+.footer_con h5{
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.footer_m p:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: darkgreen;
+    height: 1px;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer_m p{
+    padding-top: 80px;
+    color: green;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+/*footer part css end*/
